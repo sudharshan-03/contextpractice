@@ -76,7 +76,7 @@ function Login() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          background: "url(./src/assets/two.jpg)",
+          background: "url(../src/assets/two.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw 110vh",
           boxSizing: "border-box",
