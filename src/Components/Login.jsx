@@ -2,6 +2,7 @@ import { Box, styled, Typography, TextField, Button,Snackbar,Alert } from "@mui/
 import "../styles/login.css";
 import { useNavigate } from "react-router";
 import { useState } from "react";
+import backImage from "../assets/two.jpg";
 
 const CustomLegend = styled(Typography)({
   color: "white",
@@ -76,7 +77,7 @@ function Login() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          background: "url(../assets/two.jpg)",
+          background: `url(${backImage})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw 110vh",
           boxSizing: "border-box",
